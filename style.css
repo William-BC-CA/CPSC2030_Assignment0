@@ -28,16 +28,27 @@ footer ul {
     nav ul li{
         display: inline;
         text-align: center;
+
+        border-right-style: solid; /*https://www.w3schools.com/css/css_border.asp*/
+    }
+    nav ul li:last-of-type{
+        border-style: none;
+    }
+    #selectors + p{
+        font-size: 20px;
     }
     figure {
         height: 250px;
         float: left;
         overflow: hidden;
-        max-width: 800px;
-        text-align: center;
     }
     /* img {
         max-width: 800px;
         text-align: center;
     } */
+    body{
+        max-width: 800px;
+        text-align: center;
+    }
+
 }
