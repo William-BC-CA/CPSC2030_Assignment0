@@ -35,7 +35,19 @@ footer ul {
         border-style: none;
     }
     #selectors + p{
-        font-size: 20px;
+        font-size: 22px;
+    }
+    /* #selectors + p:nth-of-type(1){ */
+    /* #selectors + p:nth-of-type(1){ */
+    #selectors + p:first-line{ /* https://www.w3schools.com/cssref/sel_firstline.asp */
+        color: crimson;
+    }
+    #selectors + p:first-letter{ /* https://www.w3docs.com/snippets/css/how-to-create-drop-caps-for-the-text.html */
+        font-size: 100px;
+        color: black;
+    }
+    h2 + p{
+        font-style: italic;
     }
     figure {
         height: 250px;
