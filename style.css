@@ -30,6 +30,9 @@ footer ul {
         text-align: center;
 
         border-right-style: solid; /*https://www.w3schools.com/css/css_border.asp*/
+        padding-right: 5px;
+
+        color: slategrey;
     }
     nav ul li:last-of-type{
         border-style: none;
@@ -63,4 +66,26 @@ footer ul {
         text-align: center;
     }
 
+    h2 + span {
+        position: relative;
+    }
+    h2{
+        border-bottom: 3px solid slategrey;
+        padding-right: 50%;
+        margin-right: 50px;
+        line-height: 0.1em;
+        margin: 10px 0 20px;
+        /* margin-left: 50px; */
+    }
+    .settings{
+        position: fixed;
+        margin-left: 98%;
+        margin-top: -7%;
+        /* text-align: right; */
+        /* margin: 0 5px 5px 2000px; */
+    }
+    figure figcaption{
+        position: absolute;
+        background-color: transparent;
+    }
 }
