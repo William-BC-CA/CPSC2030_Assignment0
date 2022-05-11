@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+h2 {
+    text-transform: uppercase;
+    font-family: "Quattrocento";
+    color: slategrey;
+}
+figure, img{
+    width: auto;
+    max-width: 100%;
+}
+p {
+    font-family: "Crimson Pro";
+}
+footer {
+    background-color: grey;
+}
+footer ul {
+    text-align: center;
+}
+/* nav ul li{
+    display: block;
+    text-align: center;
+} */
+
+/* Computer CSS */
+@media only screen and (min-width: 500px) {
+    nav ul li{
+        display: inline;
+        text-align: center;
+    }
+    figure {
+        height: 250px;
+        float: left;
+        overflow: hidden;
+        max-width: 800px;
+        text-align: center;
+    }
+    /* img {
+        max-width: 800px;
+        text-align: center;
+    } */
+}
