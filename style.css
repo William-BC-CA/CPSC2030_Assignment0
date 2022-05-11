@@ -65,18 +65,25 @@ footer ul {
         max-width: 800px;
         text-align: center;
     }
-
-    h2 + span {
-        position: relative;
-    }
+    /* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
     h2{
-        border-bottom: 3px solid slategrey;
-        padding-right: 50%;
-        margin-right: 50px;
+        /* border-bottom: 3px solid slategrey; */
+        /* padding-right: 50%; */
+        /* margin-left: 100px; */
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid slategray;
         line-height: 0.1em;
-        margin: 10px 0 20px;
+        margin: 20px 0 20px;
+        /* margin: 0px 5px 50px; */
         /* margin-left: 50px; */
     }
+    h2 span {
+        /* position: relative; */
+        background: #fff;
+        padding: 0 10px;
+    }
+    
     .settings{
         position: fixed;
         margin-left: 98%;
