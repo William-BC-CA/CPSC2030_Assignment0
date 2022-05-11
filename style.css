@@ -83,7 +83,7 @@ footer ul {
         background: #fff;
         padding: 0 10px;
     }
-    
+
     .settings{
         position: fixed;
         margin-left: 98%;
@@ -94,5 +94,9 @@ footer ul {
     figure figcaption{
         position: absolute;
         background-color: transparent;
+        top: 1000px;
+        height: 10px;
+        left: 250px;
+        /* color: white; */
     }
 }
