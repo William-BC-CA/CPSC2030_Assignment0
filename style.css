@@ -5,6 +5,9 @@ h2 {
     font-family: "Quattrocento";
     color: slategrey;
 }
+h1 {
+    font-family: "Quattrocento";
+}
 figure, img{
     width: auto;
     max-width: 100%;
@@ -13,7 +16,8 @@ p {
     font-family: "Crimson Pro";
 }
 footer {
-    background-color: grey;
+    background-color: slategrey;
+    padding: 10px;
 }
 footer ul {
     text-align: center;
@@ -22,6 +26,87 @@ footer ul {
     display: block;
     text-align: center;
 } */
+
+footer ul li{
+    display: inline;
+    text-align: center;
+    color: White;
+}
+
+/* https://www.codegrepper.com/code-examples/css/remote+dots+ul+html */
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    color: Crimson;
+    padding-bottom: 30px;
+    /* text-decoration: none; */
+}
+
+footer a:link{
+    text-decoration: none;
+    color: White;
+}
+
+footer a:visited{
+    text-decoration: none;
+    color: White;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: White;
+}
+
+/* For the a with pseudo-class: https://blog.hubspot.com/website/remove-underline-from-links-css */
+nav a:link{
+    text-decoration: none;
+    color: Crimson;
+}
+
+nav a:visited{
+    color: slategray;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: Crimson;
+    text-decoration: underline;
+}
+
+/* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+h2{
+    /* border-bottom: 3px solid slategrey; */
+    /* padding-right: 50%; */
+    /* margin-left: 100px; */
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid slategray;
+    line-height: 0.1em;
+    margin: 20px 0 20px;
+    /* margin: 0px 5px 50px; */
+    /* margin-left: 50px; */
+}
+h2 span {
+    /* position: relative; */
+    background: #fff;
+    padding: 0 10px;
+}
+
+.settings{
+    position: fixed;
+    top: 2%;
+    right: 2%;
+    /* text-align: right; */
+    /* margin: 0 5px 5px 2000px; */
+}
+
+.wrapper{
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+}
 
 /* Computer CSS */
 @media only screen and (min-width: 500px) {
@@ -61,36 +146,19 @@ footer ul {
         max-width: 800px;
         text-align: center;
     } */
-    body{
-        max-width: 800px;
-        text-align: center;
-    }
-    /* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
-    h2{
-        /* border-bottom: 3px solid slategrey; */
-        /* padding-right: 50%; */
-        /* margin-left: 100px; */
-        width: 100%;
-        text-align: left;
-        border-bottom: 1px solid slategray;
-        line-height: 0.1em;
-        margin: 20px 0 20px;
-        /* margin: 0px 5px 50px; */
-        /* margin-left: 50px; */
-    }
-    h2 span {
-        /* position: relative; */
-        background: #fff;
-        padding: 0 10px;
-    }
 
-    .settings{
+    /* .settings{
         position: fixed;
-        margin-left: 98%;
-        margin-top: -7%;
+        margin-left: 90%;
+        margin-top: -20%; */
         /* text-align: right; */
         /* margin: 0 5px 5px 2000px; */
+    /* } */
+
+    nav ul li{
+        padding-bottom: 0px;
     }
+
     figure figcaption{
         position: absolute;
         background-color: transparent;
@@ -98,5 +166,12 @@ footer ul {
         height: 10px;
         left: 250px;
         /* color: white; */
+    }
+    /* Fix Image */
+    figure, img{
+        width: auto;
+        height: auto;
+        max-height: 100%;
+        max-width: 100%;
     }
 }
