@@ -31,6 +31,7 @@ footer ul li{
     display: inline;
     text-align: center;
     color: White;
+    padding-right: 30px;
 }
 
 /* https://www.codegrepper.com/code-examples/css/remote+dots+ul+html */
@@ -40,7 +41,8 @@ nav ul{
 
 nav ul li{
     color: Crimson;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     /* text-decoration: none; */
 }
 
@@ -108,6 +110,20 @@ h2 span {
     margin: auto;
 }
 
+figure {
+    position: relative;
+}
+
+figure figcaption{
+    position: absolute;
+    color: White;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    /* right: 5px; */
+    width: 100%;
+    text-align: center;
+}
+
 /* Computer CSS */
 @media only screen and (min-width: 500px) {
     nav ul li{
@@ -137,11 +153,11 @@ h2 span {
     h2 + p{
         font-style: italic;
     }
-    figure {
+    /* figure {
         height: 250px;
         float: left;
         overflow: hidden;
-    }
+    } */
     /* img {
         max-width: 800px;
         text-align: center;
@@ -155,23 +171,37 @@ h2 span {
         /* margin: 0 5px 5px 2000px; */
     /* } */
 
-    nav ul li{
-        padding-bottom: 0px;
+    nav {
+        padding-bottom: 30px;
+        padding-top: 1px;
     }
 
-    figure figcaption{
+    nav ul li{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    /* nav ul li{
+        padding-bottom: 0px;
+    } */
+
+    /* figure figcaption{
         position: absolute;
         background-color: transparent;
         top: 1000px;
         height: 10px;
-        left: 250px;
+        left: 250px; */
         /* color: white; */
-    }
+    /* } */
+
     /* Fix Image */
-    figure, img{
+    figure{
+        float: left;
         width: auto;
-        height: auto;
-        max-height: 100%;
-        max-width: 100%;
+        /* height: auto; */
+        /* max-height: 100%;
+        max-width: 100%; */
+    }
+    figure img{
+        height: 250px;
     }
 }
