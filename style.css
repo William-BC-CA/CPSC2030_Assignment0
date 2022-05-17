@@ -38,6 +38,8 @@ footer ul li{
 /* https://www.codegrepper.com/code-examples/css/remote+dots+ul+html */
 nav ul{
     list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 nav ul li{
@@ -61,7 +63,7 @@ footer a:hover{
     color: White;
 }
 
-/* For the a with pseudo-class: https://blog.hubspot.com/website/remove-underline-from-links-css */
+/* (Line 65-83 and Line 49-62) For the a with pseudo-class: https://blog.hubspot.com/website/remove-underline-from-links-css */
 nav a:link{
     text-decoration: none;
     color: Crimson;
@@ -86,7 +88,7 @@ p {
     text-align: left;
 }
 
-/* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+/* All of h2 and h2 span below (Line 90-100) from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2{
     width: 100%;
     text-align: left;
@@ -131,7 +133,8 @@ figure figcaption{
         text-align: center;
 
         border-right-style: solid; /*https://www.w3schools.com/css/css_border.asp*/
-        padding-right: 5px;
+        padding-right: 20px;
+        padding-left: 10px;
 
         color: slategrey;
     }
@@ -161,12 +164,12 @@ figure figcaption{
         font-style: italic;
     }
 
-    /* Fix Image */
+    /* Fix Image (Line 164-172)*/
     figure{
         float: left;
         width: auto;
     }
-    
+
     figure img{
         height: 250px;
     }
