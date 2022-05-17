@@ -77,6 +77,11 @@ nav a:hover{
     text-decoration: underline;
 }
 
+nav a:active{
+    color: White;
+    background-color: crimson;
+}
+
 /* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2{
     /* border-bottom: 3px solid slategrey; */
