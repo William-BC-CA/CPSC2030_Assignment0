@@ -63,7 +63,7 @@ footer a:hover{
     color: White;
 }
 
-/* (Line 65-83 and Line 49-62) For the a with pseudo-class: https://blog.hubspot.com/website/remove-underline-from-links-css */
+/* (Line 67-85 and Line 51-64) For the a with pseudo-class: https://blog.hubspot.com/website/remove-underline-from-links-css */
 nav a:link{
     text-decoration: none;
     color: Crimson;
@@ -89,7 +89,7 @@ p {
     padding-bottom: 10px;
 }
 
-/* All of h2 and h2 span below (Line 90-100) from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
+/* All of h2 and h2 span below (Line 93-103) from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2{
     width: 100%;
     text-align: left;
@@ -164,7 +164,7 @@ h2 + p{
         border-style: none;
     }
 
-    /* Fix Image (Line 164-172)*/
+    /* Fix Image (Line 167-175)*/
     figure{
         float: left;
         width: auto;
