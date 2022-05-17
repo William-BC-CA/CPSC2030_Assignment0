@@ -5,27 +5,28 @@ h2 {
     font-family: "Quattrocento";
     color: slategrey;
 }
+
 h1 {
     font-family: "Quattrocento";
 }
+
 figure, img{
     width: auto;
     max-width: 100%;
 }
+
 p {
     font-family: "Crimson Pro";
 }
+
 footer {
     background-color: slategrey;
     padding: 10px;
 }
+
 footer ul {
     text-align: center;
 }
-/* nav ul li{
-    display: block;
-    text-align: center;
-} */
 
 footer ul li{
     display: inline;
@@ -43,7 +44,6 @@ nav ul li{
     color: Crimson;
     padding-bottom: 20px;
     padding-top: 20px;
-    /* text-decoration: none; */
 }
 
 footer a:link{
@@ -82,21 +82,19 @@ nav a:active{
     background-color: crimson;
 }
 
+p {
+    text-align: left;
+}
+
 /* h2 and h2 span from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
 h2{
-    /* border-bottom: 3px solid slategrey; */
-    /* padding-right: 50%; */
-    /* margin-left: 100px; */
     width: 100%;
     text-align: left;
     border-bottom: 1px solid slategray;
     line-height: 0.1em;
     margin: 20px 0 20px;
-    /* margin: 0px 5px 50px; */
-    /* margin-left: 50px; */
 }
 h2 span {
-    /* position: relative; */
     background: #fff;
     padding: 0 10px;
 }
@@ -105,8 +103,6 @@ h2 span {
     position: fixed;
     top: 2%;
     right: 2%;
-    /* text-align: right; */
-    /* margin: 0 5px 5px 2000px; */
 }
 
 .wrapper{
@@ -124,7 +120,6 @@ figure figcaption{
     color: White;
     background-color: rgba(0,0,0,0.5);
     top: 0;
-    /* right: 5px; */
     width: 100%;
     text-align: center;
 }
@@ -140,72 +135,38 @@ figure figcaption{
 
         color: slategrey;
     }
+
     nav ul li:last-of-type{
         border-style: none;
     }
+
     #selectors + p{
         font-size: 22px;
+        font-style: normal;
     }
-    /* #selectors + p:nth-of-type(1){ */
-    /* #selectors + p:nth-of-type(1){ */
+
     #selectors + p:first-line{ /* https://www.w3schools.com/cssref/sel_firstline.asp */
         color: crimson;
     }
-    #selectors + p:first-letter{ /* https://www.w3docs.com/snippets/css/how-to-create-drop-caps-for-the-text.html */
-        font-size: 100px;
+
+    #selectors + p:first-letter{ /* https://blog.hubspot.com/website/css-drop-cap */
+        font-size: 75px;
+        line-height: 65%;
+        float:left;
         color: black;
+        initial-letter: 2;
     }
+
     h2 + p{
         font-style: italic;
     }
-    /* figure {
-        height: 250px;
-        float: left;
-        overflow: hidden;
-    } */
-    /* img {
-        max-width: 800px;
-        text-align: center;
-    } */
-
-    /* .settings{
-        position: fixed;
-        margin-left: 90%;
-        margin-top: -20%; */
-        /* text-align: right; */
-        /* margin: 0 5px 5px 2000px; */
-    /* } */
-
-    nav {
-        padding-bottom: 30px;
-        padding-top: 1px;
-    }
-
-    nav ul li{
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    /* nav ul li{
-        padding-bottom: 0px;
-    } */
-
-    /* figure figcaption{
-        position: absolute;
-        background-color: transparent;
-        top: 1000px;
-        height: 10px;
-        left: 250px; */
-        /* color: white; */
-    /* } */
 
     /* Fix Image */
     figure{
         float: left;
         width: auto;
-        /* height: auto; */
-        /* max-height: 100%;
-        max-width: 100%; */
     }
+    
     figure img{
         height: 250px;
     }
