@@ -127,6 +127,26 @@ figure figcaption{
     text-align: center;
 }
 
+#selectors + p{
+    font-size: 22px;
+    font-style: normal;
+}
+
+h2 + p{
+    font-style: italic;
+}
+
+#selectors + p:first-line{ /* https://www.w3schools.com/cssref/sel_firstline.asp */
+    color: crimson;
+}
+
+#selectors + p:first-letter{ /* https://blog.hubspot.com/website/css-drop-cap */
+    font-size: 341%;
+    line-height: 65%;
+    float:left;
+    color: black;
+}
+
 /* Computer CSS */
 @media only screen and (min-width: 500px) {
     nav ul li{
@@ -142,27 +162,6 @@ figure figcaption{
 
     nav ul li:last-of-type{
         border-style: none;
-    }
-
-    #selectors + p{
-        font-size: 22px;
-        font-style: normal;
-    }
-
-    #selectors + p:first-line{ /* https://www.w3schools.com/cssref/sel_firstline.asp */
-        color: crimson;
-    }
-
-    #selectors + p:first-letter{ /* https://blog.hubspot.com/website/css-drop-cap */
-        font-size: 75px;
-        line-height: 65%;
-        float:left;
-        color: black;
-        initial-letter: 2;
-    }
-
-    h2 + p{
-        font-style: italic;
     }
 
     /* Fix Image (Line 164-172)*/
