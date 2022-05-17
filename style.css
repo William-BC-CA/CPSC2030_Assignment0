@@ -86,6 +86,7 @@ nav a:active{
 
 p {
     text-align: left;
+    padding-bottom: 10px;
 }
 
 /* All of h2 and h2 span below (Line 90-100) from: https://stackoverflow.com/questions/5214127/css-technique-for-a-horizontal-line-with-words-in-the-middle */
